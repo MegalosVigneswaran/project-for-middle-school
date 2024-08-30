@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3y_2OZUjN"
-#define BLYNK_TEMPLATE_NAME "Smart irrigation "
-#define BLYNK_AUTH_TOKEN "578ZnKQbL05fEL2-jnPMYo_jUco3cGWH"
+#define BLYNK_TEMPLATE_ID "Enter your template ID"
+#define BLYNK_TEMPLATE_NAME "Enter your template name"
+#define BLYNK_AUTH_TOKEN "Enter your blynk auth token"
 
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
