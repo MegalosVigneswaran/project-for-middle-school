@@ -1,0 +1,102 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#brand{
+    font-family: "Luckiest Guy", cursive;
+    font-size:x-large;
+    color: rgb(0, 194, 194);
+    width: fit-content;
+    position:fixed;
+    background-color: transparent;
+    z-index: 100000000;
+    top: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.mdz{
+    width: 165px;
+    height: 25px;
+    position:fixed;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 10px;
+    top: 0;
+    right: 0;
+    background: rgb(0, 194, 194);
+    margin-right: 5px;
+    padding-left: 5px;
+    z-index: 100000000;
+    font-family: "Fredoka", sans-serif;;
+    font-weight:bold ;
+    cursor: pointer;
+}
+
+#map {
+    height: 100vh;
+    width: 100%;
+    border: none !important;
+}
+
+.gm-style iframe + div { border:none!important; }
+
+.shinf{
+    color: black !important;
+    position: fixed;
+    top: 0;
+    margin-top: 50px;
+    width: fit-content;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transform: scale(0.9);
+    visibility: collapse;
+    
+}
+
+.shinf h3,p{
+    font-family: "Fredoka", sans-serif;
+    margin: 0;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+
+.shinf .viewimages{
+    width: 100%;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+    border-radius: 7px;
+    background-color: black;
+}
+
+.imageview{
+    visibility: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    overflow-y: auto;
+    justify-content: center;
+    top: 0;
+    z-index: 100000002;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.image{
+    margin-left: 10px;
+    margin-top: 15px;
+    justify-self:center;
+    width: 350px; 
+    height: 350px; 
+    border-radius: 25px;
+    background-color: black;
+    transform: rotate(90deg);
+}
